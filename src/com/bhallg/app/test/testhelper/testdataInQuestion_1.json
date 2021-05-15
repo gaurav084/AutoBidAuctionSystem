@@ -1,0 +1,77 @@
+{
+"auctionItems" : 
+  [
+    {
+      "name" : "Bicycle", 
+      "bidders": 
+        [
+          {
+			        "bidder_name" : "Alice",
+			        "starting_bid" : 50.0,
+			        "max_bid" : 80.0,
+			        "incremental_amt": 3.0
+			    }, 
+          {
+			        "bidder_name" : "Aaron",
+			        "starting_bid" : 60.0,
+			        "max_bid" : 82.0,
+			        "incremental_amt": 2.0
+			    }, 
+		      {
+			        "bidder_name" : "Amanda",
+			        "starting_bid" : 55.0,
+			        "max_bid" : 85.0,
+			        "incremental_amt": 5.0
+			    }
+        ] 
+    },
+    {
+      "name" : "Scooter", 
+      "bidders": 
+        [
+          {
+			        "bidder_name" : "Alice",
+			        "starting_bid" : 700.0,
+			        "max_bid" : 725.0,
+			        "incremental_amt": 2.0
+			    }, 
+          {
+			        "bidder_name" : "Aaron",
+			        "starting_bid" : 599.0,
+			        "max_bid" : 725.0,
+			        "incremental_amt": 15.0
+			    }, 
+		      {
+			        "bidder_name" : "Amanda",
+			        "starting_bid" : 625.0,
+			        "max_bid" : 725.0,
+			        "incremental_amt": 8.0
+			    }
+        ] 
+    },
+    {
+      "name" : "Boat", 
+      "bidders": 
+        [
+          {
+			        "bidder_name" : "Alice",
+			        "starting_bid" : 2500.0,
+			        "max_bid" : 3000.0,
+			        "incremental_amt": 500.0
+			    }, 
+          {
+			        "bidder_name" : "Aaron",
+			        "starting_bid" : 2800.0,
+			        "max_bid" : 3100.0,
+			        "incremental_amt": 201.0
+			    }, 
+		      {
+			        "bidder_name" : "Amanda",
+			        "starting_bid" : 2501.0,
+			        "max_bid" : 3200.0,
+			        "incremental_amt": 247.0
+			    }
+        ] 
+    }
+  ]
+}
