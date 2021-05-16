@@ -8,7 +8,7 @@ import com.bhallg.app.model.Bidder;
 public class BiddingProcessor {
 
 	/**
-	 * API to process all Auctions for finding the bidder with the winning bid. The
+	 * API to process all Auction for finding the bidder with the winning bid. The
 	 * winner will have the highest bid from all the bidders, but the lowest
 	 * possible amount from their maximum bid amount.
 	 * 

@@ -3,7 +3,8 @@ package com.bhallg.app.model;
 import java.util.List;
 
 /**
- * Auction class containing itemName and its corresponding Bidder Information
+ * Auction class containing itemName and its corresponding Bidder Information.
+ * Getters and setters for Auction details
  * 
  * @author bhallg
  *
@@ -41,6 +42,4 @@ public class Auction {
 	public void setWinner(Bidder winner) {
 		this.winner = winner;
 	}
-
-	
 }
