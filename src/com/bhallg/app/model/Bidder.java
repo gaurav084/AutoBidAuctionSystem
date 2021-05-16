@@ -1,14 +1,15 @@
 package com.bhallg.app.model;
 
 /**
- * The Bidder Class containing each Bidder details
+ * The Bidder Class containing each Bidder details. Getters and setters for
+ * Bidder details
  * 
  * @author bhallg
  *
  */
 public class Bidder {
 	private String name;
-	//private MonetaryAmount startingBid;
+	// private MonetaryAmount startingBid;
 	private float startingBid;
 	private float maxBid;
 	private float incrementAmount;
@@ -53,7 +54,7 @@ public class Bidder {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 	public float getMaxPossibleBid() {
 		return maxPossibleBid;
 	}

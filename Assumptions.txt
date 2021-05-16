@@ -1,5 +1,9 @@
--- The requirement for end result is the Winner of each auction hence to optimize run time, max possible bids and minimum winning amount 
-per bidder is calculated and returned. The auto increment information will be transient but not stored as it is not asked.
+
+-- If from an Auction, any bidder has invalid input - start bid, max bid, increment as 0 or negative then I throw an 
+exception to let Client know they entered wrong input.
+ 
+ -- The requirement for end result is the Winner of each auction hence to optimize run time, max possible bids and 
+ minimum winning amount per bidder is calculated and returned. The auto increment information will be transient 
+ but not stored as it is not asked.
 
 -- Assessment requirements states US Dollar amount, so implementing only for USD.
- 
